@@ -1,1 +1,1 @@
-# naruto
+# a list of naruto's friends 
