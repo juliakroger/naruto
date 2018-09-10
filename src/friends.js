@@ -1,6 +1,6 @@
 export const friends = [
   {
-    nome: 'Susuke Uchiha',
+    nome: 'Sasuke Uchiha',
     vila: 'Konohagakure no Sato',
     img: 'https://pre00.deviantart.net/52dc/th/pre/f/2015/027/4/2/png_chibi_sasuke_shippuden_sharingan_eyes_by_marcinha20-d8fnekx.png'
   },
