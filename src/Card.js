@@ -1,16 +1,19 @@
 import React from 'react';
 
 
-const Card = (props) => {
+const Card = ({ nome, vila, img}) => {
 	return (
-	<div className='bg-gold dib br3 pa3 ma2 grow bw2 shadow-5'>
-		<img alt='friend' src={`${props.img}`}/>
+	<div className='bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5'>
+		<img src={`${img}`} alt='friends' height='250' width='185'/>
 		<div className='tc'>
-		<h2>{props.nome}</h2>
-		<p>{props.vila}</p>
+		<h2>{nome}</h2>
+		<p>{vila}</p>
 		</div>
 	</div>
 	);
 }
 
 export default Card;
+
+
+
