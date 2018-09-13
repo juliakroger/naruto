@@ -3,6 +3,7 @@ import CardList from './CardList.js';
 import SearchBox from './SearchBox.js'
 import { friends } from './friends.js';
 import './App.css';
+import Scroll from './Scroll.js';
 
 class App extends Component{
 	constructor() {
@@ -28,7 +29,9 @@ onSearchChange = (event) => {
 		<div className = 'tc'>
 		<h1 className='f1'>Naruto Friends</h1>
 		<SearchBox searchChange={this.onSearchChange}/>
+		<Scroll>
 		<CardList friends={filteredFriends} />
+		</Scroll>
 		</div>
 		);
 	}
